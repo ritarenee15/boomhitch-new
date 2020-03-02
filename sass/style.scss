@@ -1745,7 +1745,9 @@ h6 {
 
 
 h1 {
-  @include fluidTypeSize(2.5, 1.5);
+//   @include fluidTypeSize(2.5, 1.5);
+  @include fluidTypeSize(3, 2);
+  font-family: $f-bodyFont;
 }
 
 h2 {
@@ -1827,7 +1829,7 @@ a {
       font-size: .85em;
       &:hover,
       &:focus {
-        color: $c-theme1;
+        color: $c-theme2;
       }
     }
   }
@@ -2172,4 +2174,64 @@ footer {
 			}
 		}
 	}
+}
+
+/* ================================= 
+  Homepage - Base Styles
+==================================== */
+
+#homepage {
+    nav {
+        .mobile-nav-bar{
+            .top-nav-bar {
+                .wrapper {
+                    #menu {
+                        &::after {
+                            color: $c-white;
+                        }
+                    }
+                }
+            }
+            #bottom-nav-bar {
+                background-color: $c-theme1;
+                .nav-bar-items li {
+                    color: $c-white;
+                    a {
+                        color: $c-white;
+                        &:hover, &:focus {
+                            color: $c-theme2;
+                        }
+                    }
+                }
+            }
+        }
+        .desktop-nav-bar {
+            background-color: transparent;
+            .wrapper {
+                .nav-bar-items {
+                    li {
+                        a {
+                            color: $c-white;
+                            &:hover, &:focus {
+                                color: $c-theme2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hero {
+        @include flexbox;
+        @include align-items(center);
+        @include justify-content(center);
+        height: 70vh;
+        background: $c-theme1 url("../images/heroes/home_hero.jpg") no-repeat top center / cover;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        h1 {
+            color: $c-white;
+        }
+    }
 }
