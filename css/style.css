@@ -837,7 +837,7 @@ a:hover, a:focus {
   padding: .25em .55em;
 }
 
-#homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, button[type="submit"] {
+#homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, button[type="submit"] {
   background-color: #f04c3b;
   font-family: "Marison-Sans", "Arial Black", sans-serif;
   font-size: .75em;
@@ -845,11 +845,20 @@ a:hover, a:focus {
   text-transform: uppercase;
   color: #FFFFFF;
   padding: 1.1em 2em;
+  display: block;
+  width: 100%;
 }
 
-#homepage .section2 .wrapper a:hover, #homepage .section1 .wrapper a:hover, #aboutPage .section1 a:hover, button:hover[type="submit"], #homepage .section2 .wrapper a:focus, #homepage .section1 .wrapper a:focus, #aboutPage .section1 a:focus, button:focus[type="submit"] {
+#homepage .section2 .wrapper a:hover, #homepage .section1 .wrapper a:hover, #aboutPage .section1 a:hover, #portfolioPage .section2 .services-btn:hover, button:hover[type="submit"], #homepage .section2 .wrapper a:focus, #homepage .section1 .wrapper a:focus, #aboutPage .section1 a:focus, #portfolioPage .section2 .services-btn:focus, button:focus[type="submit"] {
   background: #353a40;
   color: #FFFFFF;
+}
+
+@media (min-width: 37.5em) {
+  #homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, button[type="submit"] {
+    width: 20em;
+    margin: auto;
+  }
 }
 
 #homepage .section2 .wrapper a {
@@ -1065,123 +1074,6 @@ button[type="submit"] {
   border: none;
   -webkit-transition: all .5s;
   transition: all .5s;
-}
-
-.mansory-gallery-image1 {
-  background: #353a40 url("../images/home_images/home_image1.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-.mansory-gallery-image2 {
-  background: #353a40 url("../images/home_images/home_image2.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-.mansory-gallery-image3 {
-  background: #353a40 url("../images/home_images/home_image3.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-.mansory-gallery-image4 {
-  background: #353a40 url("../images/home_images/home_image4.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-.mansory-gallery-image5 {
-  background: #353a40 url("../images/home_images/home_image5.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-.mansory-gallery-image6 {
-  background: #353a40 url("../images/home_images/home_image6.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-.mansory-gallery-image7 {
-  background: #353a40 url("../images/home_images/home_image7.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-.mansory-gallery-image8 {
-  background: #353a40 url("../images/home_images/home_image8.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
-}
-
-.mansory-gallery-image9 {
-  background: #353a40 url("../images/home_images/home_image9.jpg") no-repeat top center/cover;
-  width: 150px;
-  color: white;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-family: system-ui;
-  font-weight: 900;
-  font-size: 2rem;
 }
 
 /* ================================= 
@@ -1509,6 +1401,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   font-weight: bold;
   margin: 0;
   font-size: .75em;
+  z-index: 1;
 }
 
 @media (min-width: 37.5em) {
@@ -1538,5 +1431,340 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 #aboutPage .section1 .paragraphs {
   text-align: left;
   margin-bottom: 10%;
+}
+
+/* ================================= 
+  Portfolio Page
+==================================== */
+#portfolioPage .page-tag {
+  position: absolute;
+  top: 56vh;
+  left: -35px;
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: #f04c3b;
+  background-color: #353a40;
+  display: inline-block;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  font-size: .75em;
+  z-index: 1;
+  top: 30vh;
+  left: -40px;
+}
+
+@media (min-width: 37.5em) {
+  #portfolioPage .page-tag {
+    top: 61vh;
+    left: -35px;
+  }
+}
+
+@media (min-width: 37.5em) {
+  #portfolioPage .page-tag {
+    top: 30vh;
+    left: -40px;
+  }
+}
+
+#portfolioPage .section1 {
+  width: 70%;
+  max-width: 56.25em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5% 0;
+}
+
+#portfolioPage .section1 .paragraphs {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+#portfolioPage .section2 {
+  width: 90%;
+  max-width: 85.9375em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+}
+
+#portfolioPage .section2 .portfolio-images {
+  margin-left: 1em;
+  padding-bottom: 10%;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image1 {
+  background: #353a40 url("../images/portfolio_images/piece1.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image1:hover, #portfolioPage .section2 .portfolio-images .portfolio-image1:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image2 {
+  background: #353a40 url("../images/portfolio_images/piece2.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image2:hover, #portfolioPage .section2 .portfolio-images .portfolio-image2:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image3 {
+  background: #353a40 url("../images/portfolio_images/piece3.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image3:hover, #portfolioPage .section2 .portfolio-images .portfolio-image3:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image4 {
+  background: #353a40 url("../images/portfolio_images/piece4.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image4:hover, #portfolioPage .section2 .portfolio-images .portfolio-image4:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image5 {
+  background: #353a40 url("../images/portfolio_images/piece5.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image5:hover, #portfolioPage .section2 .portfolio-images .portfolio-image5:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image6 {
+  background: #353a40 url("../images/portfolio_images/piece6.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image6:hover, #portfolioPage .section2 .portfolio-images .portfolio-image6:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image7 {
+  background: #353a40 url("../images/portfolio_images/piece7.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image7:hover, #portfolioPage .section2 .portfolio-images .portfolio-image7:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image8 {
+  background: #353a40 url("../images/portfolio_images/piece8.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image8:hover, #portfolioPage .section2 .portfolio-images .portfolio-image8:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image9 {
+  background: #353a40 url("../images/portfolio_images/piece9.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image9:hover, #portfolioPage .section2 .portfolio-images .portfolio-image9:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image10 {
+  background: #353a40 url("../images/portfolio_images/piece10.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image10:hover, #portfolioPage .section2 .portfolio-images .portfolio-image10:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image11 {
+  background: #353a40 url("../images/portfolio_images/piece11.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image11:hover, #portfolioPage .section2 .portfolio-images .portfolio-image11:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image12 {
+  background: #353a40 url("../images/portfolio_images/piece12.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image12:hover, #portfolioPage .section2 .portfolio-images .portfolio-image12:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image13 {
+  background: #353a40 url("../images/portfolio_images/piece13.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image13:hover, #portfolioPage .section2 .portfolio-images .portfolio-image13:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image14 {
+  background: #353a40 url("../images/portfolio_images/piece14.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image14:hover, #portfolioPage .section2 .portfolio-images .portfolio-image14:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image15 {
+  background: #353a40 url("../images/portfolio_images/piece15.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image15:hover, #portfolioPage .section2 .portfolio-images .portfolio-image15:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image16 {
+  background: #353a40 url("../images/portfolio_images/piece16.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image16:hover, #portfolioPage .section2 .portfolio-images .portfolio-image16:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image17 {
+  background: #353a40 url("../images/portfolio_images/piece17.jpg") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioPage .section2 .portfolio-images .portfolio-image17:hover, #portfolioPage .section2 .portfolio-images .portfolio-image17:focus {
+  opacity: .5;
+  -webkit-transition: all .4s;
+  transition: all .4s;
 }
 /*# sourceMappingURL=style.css.map */
