@@ -1388,7 +1388,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 /* ================================= 
-  Homepage - Base Styles
+  Homepage
 ==================================== */
 #homepage nav .mobile-nav-bar .top-nav-bar .wrapper #menu::after {
   color: #FFFFFF;
@@ -1484,5 +1484,34 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   max-width: 56.25em;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ================================= 
+  About Page
+==================================== */
+#aboutPage .hero {
+  background: #353a40 url("../images/heroes/about_hero.jpg") no-repeat top center/cover;
+  height: 50vh;
+}
+
+#aboutPage .section1 {
+  width: 90%;
+  max-width: 56.25em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5% 0;
+}
+
+#aboutPage .section1 .intro-message::after {
+  background: url("../images/about_icon.png") no-repeat;
+  content: "";
+  display: block;
+  padding: 2em;
+  width: 0px;
+  margin: 5% auto;
+}
+
+#aboutPage .section1 .paragraphs {
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */

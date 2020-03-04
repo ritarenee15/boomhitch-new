@@ -2209,7 +2209,7 @@ footer {
 }
 
 /* ================================= 
-  Homepage - Base Styles
+  Homepage
 ==================================== */
 
 #homepage {
@@ -2303,6 +2303,34 @@ footer {
             a {
                 @extend %minor-button;
             }
+        }
+    }
+}
+
+/* ================================= 
+  About Page
+==================================== */
+
+#aboutPage {
+    .hero {
+        background: $c-theme1 url("../images/heroes/about_hero.jpg") no-repeat top center / cover;
+        height: 50vh;
+    }
+    .section1 {
+        @include center(90%, $mq-medium);
+        padding: 5% 0;
+        .intro-message {
+            &::after {
+                background: url("../images/about_icon.png") no-repeat;
+                content: "";
+                display: block;
+                padding: 2em;
+                width: 0px;
+                margin: 5% auto;
+            }
+        }
+        .paragraphs {
+            text-align: left;
         }
     }
 }
