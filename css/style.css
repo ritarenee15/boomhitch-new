@@ -837,7 +837,7 @@ a:hover, a:focus {
   padding: .25em .55em;
 }
 
-#homepage .section2 .wrapper a, #homepage .section1 .wrapper a, button[type="submit"] {
+#homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, button[type="submit"] {
   background-color: #f04c3b;
   font-family: "Marison-Sans", "Arial Black", sans-serif;
   font-size: .75em;
@@ -847,7 +847,7 @@ a:hover, a:focus {
   padding: 1.1em 2em;
 }
 
-#homepage .section2 .wrapper a:hover, #homepage .section1 .wrapper a:hover, button:hover[type="submit"], #homepage .section2 .wrapper a:focus, #homepage .section1 .wrapper a:focus, button:focus[type="submit"] {
+#homepage .section2 .wrapper a:hover, #homepage .section1 .wrapper a:hover, #aboutPage .section1 a:hover, button:hover[type="submit"], #homepage .section2 .wrapper a:focus, #homepage .section1 .wrapper a:focus, #aboutPage .section1 a:focus, button:focus[type="submit"] {
   background: #353a40;
   color: #FFFFFF;
 }
@@ -1494,12 +1494,36 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   height: 50vh;
 }
 
+#aboutPage .page-tag {
+  position: absolute;
+  top: 56vh;
+  left: -35px;
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: #f04c3b;
+  background-color: #353a40;
+  display: inline-block;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  font-size: .75em;
+}
+
+@media (min-width: 37.5em) {
+  #aboutPage .page-tag {
+    top: 61vh;
+    left: -35px;
+  }
+}
+
 #aboutPage .section1 {
   width: 90%;
   max-width: 56.25em;
   margin-left: auto;
   margin-right: auto;
-  padding: 5% 0;
+  padding: 5% 0 10%;
 }
 
 #aboutPage .section1 .intro-message::after {
@@ -1513,5 +1537,6 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 
 #aboutPage .section1 .paragraphs {
   text-align: left;
+  margin-bottom: 10%;
 }
 /*# sourceMappingURL=style.css.map */
