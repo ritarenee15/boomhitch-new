@@ -1725,7 +1725,6 @@ h2 {
 
 h3 {
   @include fluidTypeSize(2, 1.25);
-  font-style: italic;
 }
 
 h4 {
@@ -2298,7 +2297,8 @@ footer {
 
 /* ================================= 
   Portfolio Page
-==================================== */#portfolioPage {
+==================================== */
+#portfolioPage {
     .page-tag {
         @include pageTag;
         top: 30vh;
@@ -2340,6 +2340,73 @@ footer {
             }
         }
         .services-btn {
+            @extend %major-button;
+        }
+    }
+}
+
+/* ================================= 
+  Portfolio Interiror Page
+==================================== */
+#portfolioInteriorPage {
+    .page-tag {
+        @include pageTag;
+        top: 30vh;
+        left: -74px;
+        @media (min-width: $mq-small) {
+            top: 30vh;
+            left: -74px;
+        }
+    }
+    .section1 {
+        @include center(90%, $mq-xLarge);
+        padding-bottom: 10%;
+        .portfolio-interior-images {
+            margin-left: 1em;
+            div {
+                background: $c-theme1 url("https://via.placeholder.com/300") no-repeat top center / cover;
+                height: 300px;
+                width: 100%;
+                max-width: 300px; 
+                color: $c-theme1;
+                margin: 0 1rem 1rem 0;
+                display: inline-block;
+            }
+        }
+    }
+    .section2 {
+        @include center(90%, $mq-medium);
+        padding-bottom: 10%;
+        .wrapper {
+            padding-bottom: 10%;
+            .description {
+                padding: 5%;
+                border-bottom: thin solid $c-theme1;
+            }
+            .keywords {
+                padding: 5%;
+            }
+            @media (min-width: $mq-small) {
+                @include flexbox;
+                text-align: left;
+                .description {
+                    border-bottom: none;
+                    border-right: thin solid $c-theme1;
+                    width: 60%;
+                    padding: 0 5% 0 0;
+                    margin: 5% 0;
+                }
+                .keywords {
+                    width: 40%;
+                    padding: 0 0 0 5%;
+                    margin: 5% 0;
+                }
+                @media (min-width: $mq-small) {
+                    @include flexbox;
+                }
+            }
+        }
+        .contact-btn {
             @extend %major-button;
         }
     }

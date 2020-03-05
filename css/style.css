@@ -704,7 +704,6 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
-  font-style: italic;
 }
 
 @media (min-width: 20rem) and (max-width: 75rem) {
@@ -837,7 +836,7 @@ a:hover, a:focus {
   padding: .25em .55em;
 }
 
-#homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, button[type="submit"] {
+#homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, #portfolioInteriorPage .section2 .contact-btn, button[type="submit"] {
   background-color: #f04c3b;
   font-family: "Marison-Sans", "Arial Black", sans-serif;
   font-size: .75em;
@@ -849,13 +848,13 @@ a:hover, a:focus {
   width: 100%;
 }
 
-#homepage .section2 .wrapper a:hover, #homepage .section1 .wrapper a:hover, #aboutPage .section1 a:hover, #portfolioPage .section2 .services-btn:hover, button:hover[type="submit"], #homepage .section2 .wrapper a:focus, #homepage .section1 .wrapper a:focus, #aboutPage .section1 a:focus, #portfolioPage .section2 .services-btn:focus, button:focus[type="submit"] {
+#homepage .section2 .wrapper a:hover, #homepage .section1 .wrapper a:hover, #aboutPage .section1 a:hover, #portfolioPage .section2 .services-btn:hover, #portfolioInteriorPage .section2 .contact-btn:hover, button:hover[type="submit"], #homepage .section2 .wrapper a:focus, #homepage .section1 .wrapper a:focus, #aboutPage .section1 a:focus, #portfolioPage .section2 .services-btn:focus, #portfolioInteriorPage .section2 .contact-btn:focus, button:focus[type="submit"] {
   background: #353a40;
   color: #FFFFFF;
 }
 
 @media (min-width: 37.5em) {
-  #homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, button[type="submit"] {
+  #homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, #portfolioInteriorPage .section2 .contact-btn, button[type="submit"] {
     width: 20em;
     margin: auto;
   }
@@ -1766,5 +1765,116 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   opacity: .5;
   -webkit-transition: all .4s;
   transition: all .4s;
+}
+
+/* ================================= 
+  Portfolio Interiror Page
+==================================== */
+#portfolioInteriorPage .page-tag {
+  position: absolute;
+  top: 56vh;
+  left: -35px;
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: #f04c3b;
+  background-color: #353a40;
+  display: inline-block;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  font-size: .75em;
+  z-index: 1;
+  top: 30vh;
+  left: -74px;
+}
+
+@media (min-width: 37.5em) {
+  #portfolioInteriorPage .page-tag {
+    top: 61vh;
+    left: -35px;
+  }
+}
+
+@media (min-width: 37.5em) {
+  #portfolioInteriorPage .page-tag {
+    top: 30vh;
+    left: -74px;
+  }
+}
+
+#portfolioInteriorPage .section1 {
+  width: 90%;
+  max-width: 85.9375em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+}
+
+#portfolioInteriorPage .section1 .portfolio-interior-images {
+  margin-left: 1em;
+}
+
+#portfolioInteriorPage .section1 .portfolio-interior-images div {
+  background: #353a40 url("https://via.placeholder.com/300") no-repeat top center/cover;
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  color: #353a40;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+}
+
+#portfolioInteriorPage .section2 {
+  width: 90%;
+  max-width: 56.25em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+}
+
+#portfolioInteriorPage .section2 .wrapper {
+  padding-bottom: 10%;
+}
+
+#portfolioInteriorPage .section2 .wrapper .description {
+  padding: 5%;
+  border-bottom: thin solid #353a40;
+}
+
+#portfolioInteriorPage .section2 .wrapper .keywords {
+  padding: 5%;
+}
+
+@media (min-width: 37.5em) {
+  #portfolioInteriorPage .section2 .wrapper {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+  }
+  #portfolioInteriorPage .section2 .wrapper .description {
+    border-bottom: none;
+    border-right: thin solid #353a40;
+    width: 60%;
+    padding: 0 5% 0 0;
+    margin: 5% 0;
+  }
+  #portfolioInteriorPage .section2 .wrapper .keywords {
+    width: 40%;
+    padding: 0 0 0 5%;
+    margin: 5% 0;
+  }
+}
+
+@media (min-width: 37.5em) and (min-width: 37.5em) {
+  #portfolioInteriorPage .section2 .wrapper {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=style.css.map */
