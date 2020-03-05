@@ -1154,7 +1154,7 @@ nav .desktop-nav-bar .wrapper .nav-bar-items li {
   margin-left: 1em;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 767px) {
   nav .desktop-nav-bar {
     display: none;
   }
