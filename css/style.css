@@ -1040,6 +1040,7 @@ html main {
 
 nav .mobile-nav-bar .top-nav-bar {
   padding: 1em 0;
+  position: relative;
 }
 
 nav .mobile-nav-bar .top-nav-bar .wrapper {
@@ -1087,7 +1088,11 @@ nav .mobile-nav-bar .top-nav-bar .wrapper #menu::after {
 
 nav .mobile-nav-bar #bottom-nav-bar {
   display: none;
-  padding-bottom: 1em;
+  padding: 2em 0 1em;
+  background-color: #FFFFFF;
+  position: absolute;
+  width: 100%;
+  opacity: 0.95;
 }
 
 nav .mobile-nav-bar #bottom-nav-bar .nav-bar-items li {
@@ -1222,6 +1227,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 
 #homepage nav .mobile-nav-bar #bottom-nav-bar {
   background-color: #353a40;
+  padding: 0 0 1em;
 }
 
 #homepage nav .mobile-nav-bar #bottom-nav-bar .nav-bar-items li {
@@ -1274,7 +1280,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #homepage .section1 {
-  padding: 5% 0 10%;
+  padding: 10% 0 10%;
   margin-top: 55vh;
 }
 

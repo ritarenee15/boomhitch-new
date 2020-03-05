@@ -2047,7 +2047,8 @@ html {
 nav {
 	.mobile-nav-bar{
 		.top-nav-bar {
-			padding: 1em 0;
+            padding: 1em 0;
+            position: relative;
 			.wrapper {
 				@include center(90%, $mq-mediumLarge);
 				@include flexbox;
@@ -2079,7 +2080,11 @@ nav {
 		}
 		#bottom-nav-bar {
 			display: none;
-			padding-bottom: 1em;
+            padding: 2em 0 1em;
+            background-color: $c-white;
+            position: absolute;
+            width: 100%;
+            opacity: 0.95;
 			.nav-bar-items li {
 				margin-bottom: 1em;
 			}
@@ -2170,6 +2175,7 @@ footer {
             }
             #bottom-nav-bar {
                 background-color: $c-theme1;
+                padding: 0 0 1em;
                 .nav-bar-items li {
                     color: $c-white;
                     a {
@@ -2212,7 +2218,7 @@ footer {
         }
     }
     .section1 {
-        padding: 5% 0 10%;
+        padding: 10% 0 10%;
         margin-top: 55vh;
         .wrapper {
             @include center(90%, $mq-medium);
