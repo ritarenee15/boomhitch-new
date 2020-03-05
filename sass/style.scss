@@ -1889,11 +1889,10 @@ a {
 			}
 		}
 		.sign-up-container {
-			@include center(100%, $mq-small);
 			label {
 				color: $c-white;
 				font-family: $f-headlineFont;
-				font-size: 1em;
+                font-size: 1em;
 			}
 			@media (min-width: $mq-small) {
 				@include flexbox;
@@ -1917,7 +1916,6 @@ a {
 			padding-bottom: 1em;
 		}
 		.contact-form-container {
-			@include center(90%, $mq-small);
 			label {
 				color: $c-white;
 				font-family: $f-headlineFont;
@@ -1931,26 +1929,6 @@ a {
           font-size: .8em;
           margin-bottom: 1em;
           height: 3em;
-        }
-      }
-			@media (min-width: $mq-small) {
-				@include flexbox;
-				@include flex-direction(column);
-				// input[type="text"] {
-				// 	margin: 0 3em 0 0;
-				// }
-				.name-email-wrapper {
-					@include flexbox;
-					@include justify-content(space-between);
-					.name {
-						margin-right: 1em;
-					}
-				}
-      }
-      button {
-        @media (min-width: $mq-small) {
-          width: 15em;
-          margin: auto;
         }
       }
 		}
@@ -1975,8 +1953,9 @@ textarea[type="text"] {
 	font-size: .8em;
 	width: 100%;
 	display: inline-block;
-	padding: 1em;
-	border: thin solid $c-theme1;
+    padding: 1em;
+    border: none;
+	border-bottom: thin solid $c-theme1;
 	margin-bottom: 1em;
 	margin-top: .25em;
 }
@@ -1987,27 +1966,28 @@ textarea[type="text"] {
 
 input[type="text"]::placeholder,
 textarea[type="text"]::placeholder {
-	font-family: $f-headlineFont;
-	color: $c-theme1;
+	font-family: $f-bodyFont;
+    color: $c-theme1;
+    text-transform: uppercase;
 }
 
-button[type="submit"]:hover,
-input[type="text"]:hover,
-textarea[type="text"]:hover,
-select:hover {
-	-webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
-  box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
-}
+// button[type="submit"]:hover,
+// input[type="text"]:hover,
+// textarea[type="text"]:hover,
+// select:hover {
+// 	-webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+// 	-moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+//   box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+// }
 
-select:hover {
-  border: thin solid $c-white;
-}
+// select:hover {
+//   border: thin solid $c-white;
+// }
 
-input[type="text"]:hover,
-textarea[type="text"]:hover {
-	border: thin solid $c-white;
-}
+// input[type="text"]:hover,
+// textarea[type="text"]:hover {
+// 	border: thin solid $c-white;
+// }
 
 
 input[type="text"]:focus,
@@ -2017,11 +1997,11 @@ select:focus {
   outline: none;
 }
 
-input[type="text"]:focus {
-	-webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
-	box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
-}
+// input[type="text"]:focus {
+// 	-webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+// 	-moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+// 	box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+// }
 
 
 button[type="submit"] {
@@ -2456,6 +2436,37 @@ footer {
         }
         .contact-btn {
             @extend %major-button;
+        }
+    }
+}
+
+/* ================================= 
+  Contact Page
+==================================== */
+#contactPage {
+    .hero {
+        background: $c-theme1 url("../images/heroes/contact_hero.jpg") no-repeat top center / cover;
+        height: 50vh;
+    }
+    .page-tag {
+        @include pageTag;
+    }
+    .section1 {
+        @include center(90%, $mq-small);
+        padding: 5% 0 10%;
+        form {
+            legend {
+                padding: 5% 0;
+            }
+            .contact-form-container {
+                padding: 10% 0;
+            }
+            button {
+                @media (min-width: $mq-small) {
+                  width: 15em;
+                  margin: auto;
+                }
+            }
         }
     }
 }

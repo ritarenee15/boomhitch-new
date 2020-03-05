@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Booomhitch</title>
+	<script src="https://kit.fontawesome.com/7b4d2fea99.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<!-- Update id! -->
+<body id="contactPage">
+	<nav>
+		<div class="mobile-nav-bar">
+			<div class="top-nav-bar">
+				<div class="wrapper">
+					<a href="index.html" class="logo"><img src="images/logo_dark.png" alt="Boomhitch"></a>
+					<a href="javascript:void(0);" id="menu" alt="menu" onclick="menuCollapse()"></a>
+				</div>
+			</div>
+			<div id="bottom-nav-bar">
+				<ul class="nav-bar-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="desktop-nav-bar">
+			<div class="wrapper">
+                <a href="index.html" class="logo"><img src="images/logo_dark.png" alt="Boomhitch"></a>
+				<ul class="nav-bar-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+        <div class="hero">
+        </div>
+        <p class="page-tag">Contact</p>
+        <div class="section1">
+            <form action="send_mail.php" method="POST" name="form" class="contact-form">
+                <fieldset>
+                    <legend>
+                        <h2 class="intro-message">Drop Us a Line.</h2>
+                    </legend>
+                    <div class="contact-form-container">
+                        <label for="name" class="visuallyhidden">Name</label>
+                        <input type="text" name="firstName" placeholder="Name" class="name" required>
+                        <label for="Email" class="visuallyhidden">E-mail</label>
+                        <input type="text" name="email" placeholder="Email" class="email" required>
+                        <label for="Company" class="visuallyhidden">Company</label>
+                        <input type="text" name="company" placeholder="Company" class="company" required>
+                        <label for="message" class="visuallyhidden">Message</label>
+                        <textarea type="text" name="comments" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+	</main>
+
+	<footer>
+		<div class="footer-bar">
+			<div class="wrapper">
+				<ul class="footer-bar-items">
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Ask Us Anything</a></li>
+					<li><a href="#">Work With Us</a></li>
+				</ul>
+				<div class="footer-bar-icons">
+					<a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="ig"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
