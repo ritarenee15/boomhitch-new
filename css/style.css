@@ -1010,7 +1010,7 @@ button[type="submit"] {
   transition: all .5s;
 }
 
-/* ================================= 
+/* =================================
   Layout - Base Styles
 ==================================== */
 html body {
@@ -1218,7 +1218,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   opacity: .4;
 }
 
-/* ================================= 
+/* =================================
   Homepage
 ==================================== */
 #homepage nav .mobile-nav-bar .top-nav-bar .wrapper #menu::after {
@@ -1318,7 +1318,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   margin-right: auto;
 }
 
-/* ================================= 
+/* =================================
   About Page
 ==================================== */
 #aboutPage .hero {
@@ -1373,7 +1373,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   margin-bottom: 10%;
 }
 
-/* ================================= 
+/* =================================
   Portfolio Page
 ==================================== */
 #portfolioPage .page-tag {
@@ -1460,7 +1460,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image1 .overlay::before {
-  content: 'Work Title';
+  content: 'Gather';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1507,7 +1507,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image2 .overlay::before {
-  content: 'Work Title';
+  content: 'Comfort';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1554,7 +1554,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image3 .overlay::before {
-  content: 'Work Title';
+  content: 'EVLV';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1601,7 +1601,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image4 .overlay::before {
-  content: 'Work Title';
+  content: 'RedBud Asset Management';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1648,7 +1648,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image5 .overlay::before {
-  content: 'Work Title';
+  content: 'Maha Vira Yoga';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1695,7 +1695,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image6 .overlay::before {
-  content: 'Work Title';
+  content: 'Rivet Brandshops';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1742,7 +1742,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image7 .overlay::before {
-  content: 'Work Title';
+  content: 'oneKind Project';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1789,7 +1789,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image8 .overlay::before {
-  content: 'Work Title';
+  content: 'SONS';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1836,7 +1836,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image9 .overlay::before {
-  content: 'Work Title';
+  content: 'Kelly Brown';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1883,7 +1883,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image10 .overlay::before {
-  content: 'Work Title';
+  content: 'Feather and Sage';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1930,7 +1930,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image11 .overlay::before {
-  content: 'Work Title';
+  content: 'Pedal';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -1977,7 +1977,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image12 .overlay::before {
-  content: 'Work Title';
+  content: 'The Town of Ashland';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -2024,7 +2024,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image13 .overlay::before {
-  content: 'Work Title';
+  content: 'RVRC';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -2071,7 +2071,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image14 .overlay::before {
-  content: 'Work Title';
+  content: 'Annalise';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -2118,7 +2118,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image15 .overlay::before {
-  content: 'Work Title';
+  content: 'NEXDUS';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -2165,7 +2165,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image16 .overlay::before {
-  content: 'Work Title';
+  content: '';
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
@@ -2235,8 +2235,13 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   font-size: 1.2em;
 }
 
+<<<<<<< HEAD
 /* ================================= 
   Portfolio Interior Page
+=======
+/* =================================
+  Portfolio Interiror Page
+>>>>>>> 2c286e7a527dd50f858636d8e7f166039bd71e59
 ==================================== */
 #portfolioInteriorPage .page-tag {
   position: absolute;
@@ -2346,7 +2351,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   }
 }
 
-/* ================================= 
+/* =================================
   Services Page
 ==================================== */
 #servicesPage .page-tag {
@@ -2424,7 +2429,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   max-width: 70%;
 }
 
-/* ================================= 
+/* =================================
   Contact Page
 ==================================== */
 #contactPage .hero {
