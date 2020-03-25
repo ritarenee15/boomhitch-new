@@ -2234,11 +2234,11 @@ footer {
     .section2 {
         margin-bottom: 10%;
         .wrapper {
-            @include center(90%, $mq-medium);
+            @include center(100%, $mq-large);
             .mansory-gallery {
                 margin-bottom: 10%;
                 .mansory-image {
-                    @include center(90%, $mq-medium);
+                    @include center(90%, $mq-xLarge);
                 }
             }
             a {
