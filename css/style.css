@@ -2285,7 +2285,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioInteriorPage .section1 .portfolio-interior-images div {
-  background: #353a40 url("https://via.placeholder.com/300") no-repeat top center/cover;
+  background: #353a40 no-repeat top center/cover;
   height: 300px;
   width: 100%;
   max-width: 300px;

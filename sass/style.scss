@@ -2309,7 +2309,7 @@ footer {
         .portfolio-images {
             margin-left: 1em;
             padding-bottom: 10%;
-            // Loop using Lists from $images variable
+            // Loop using Lists from $images variable (Looping turned off for now - images were placed in-line on portfolio.html)
             @each $div, $portfolioImage in $portfolioImages {
                 .#{$div} {
                     // background: $c-theme1 url($portfolioImage) no-repeat top center / cover;
@@ -2384,7 +2384,9 @@ footer {
         .portfolio-interior-images {
             margin-left: 1em;
             div {
-                background: $c-theme1 url("https://via.placeholder.com/300") no-repeat top center / cover;
+                // Images were placed in-line on portfolio-interior.html
+                // background: $c-theme1 url("https://via.placeholder.com/300") no-repeat top center / cover;
+                background: $c-theme1 no-repeat top center / cover;
                 height: 300px;
                 width: 100%;
                 max-width: 300px; 
