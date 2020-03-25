@@ -2312,7 +2312,8 @@ footer {
             // Loop using Lists from $images variable
             @each $div, $portfolioImage in $portfolioImages {
                 .#{$div} {
-                    background: $c-theme1 url($portfolioImage) no-repeat top center / cover;
+                    // background: $c-theme1 url($portfolioImage) no-repeat top center / cover;
+                    background: $c-theme1 no-repeat top center / cover;
                     height: 300px;
                     width: 100%;
                     max-width: 300px; 
@@ -2365,7 +2366,7 @@ footer {
 }
 
 /* ================================= 
-  Portfolio Interiror Page
+  Portfolio Interior Page
 ==================================== */
 #portfolioInteriorPage {
     .page-tag {
