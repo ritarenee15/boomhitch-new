@@ -2467,12 +2467,21 @@ footer {
                 margin: 0 1rem 1rem 0;
                 display: inline-block;
                 position: relative;
-                img {
-                    position: absolute;
-                    top: 83px;
-                    left: 46px;
+                .service-content {
+                  position: absolute;
+                  top: 25%;
+                  left: 0;
+                  background: none;
+                  img {
                     width: 100%;
-                    max-width: 70%;
+                    max-width: 40%;
+                  }
+                  .service-title {
+                    font-size: 1.375em;
+                    text-transform: uppercase;
+                    text-align: center;
+                    line-height: 1.2em;
+                  }
                 }
             }
         }
