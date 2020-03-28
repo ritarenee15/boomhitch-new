@@ -1459,28 +1459,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image1 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image1 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image1 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image1 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image2 {
@@ -1506,28 +1494,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image2 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image2 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image2 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image2 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image3 {
@@ -1553,28 +1529,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image3 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image3 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image3 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image3 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image4 {
@@ -1600,28 +1564,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image4 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image4 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image4 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image4 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image5 {
@@ -1647,28 +1599,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image5 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image5 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image5 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image5 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image6 {
@@ -1694,28 +1634,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image6 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image6 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image6 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image6 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image7 {
@@ -1741,28 +1669,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image7 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image7 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image7 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image7 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image8 {
@@ -1788,28 +1704,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image8 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image8 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image8 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image8 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image9 {
@@ -1835,28 +1739,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image9 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image9 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image9 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image9 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image10 {
@@ -1882,28 +1774,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image10 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image10 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image10 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image10 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image11 {
@@ -1929,28 +1809,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image11 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image11 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image11 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image11 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image12 {
@@ -1976,28 +1844,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image12 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image12 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image12 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image12 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image13 {
@@ -2023,28 +1879,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image13 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image13 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image13 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image13 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image14 {
@@ -2070,28 +1914,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image14 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image14 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image14 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image14 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image15 {
@@ -2117,28 +1949,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image15 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image15 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image15 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image15 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image16 {
@@ -2164,28 +1984,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image16 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image16 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image16 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image16 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image17 {
@@ -2211,28 +2019,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   transition: all .5s;
 }
 
-#portfolioPage .section2 .portfolio-images .portfolio-image17 .overlay::before {
-  content: 'Work Title';
+#portfolioPage .section2 .portfolio-images .portfolio-image17 .overlay .work-title {
   color: #FFFFFF;
   font-family: "Avenir", Arial, serif;
   text-transform: uppercase;
-  position: absolute;
-  font-size: .6em;
-  width: 100%;
-  bottom: 130px;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  font-size: 1.5em;
+  margin-top: 45%;
 }
 
 #portfolioPage .section2 .portfolio-images .portfolio-image17 .overlay:hover {
   opacity: 1;
-}
-
-#portfolioPage .section2 .portfolio-images .portfolio-image17 .overlay:hover::before {
-  opacity: 1;
-  font-size: 1.2em;
 }
 
 /* ================================= 
