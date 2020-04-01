@@ -2236,41 +2236,41 @@ footer {
         .wrapper {
             .masonry-gallery {
                 margin-bottom: 10%;
-                margin: 1%;
-                @include flexbox;
-                @include flex-wrap(wrap);
-                // .masonry-image-block {
-                //     @include center(90%, $mq-xLarge);
-                // }
-                .masonry-image {
-                  background-color: $c-theme1;
-                  height: 40vh;
-                  margin: 1%;
-                  &:nth-child(1) {
-                    width: 65%;
-                  }
-                  &:nth-child(2) {
-                    width: 31%;
-                  }
-                  &:nth-child(3) {
-                    width: 31%;
-                  }
-                  &:nth-child(4) {
-                    width: 65%;
-                  }
-                  &:nth-child(5) {
-                    width: 65%;
-                  }
-                  &:nth-child(6) {
-                    width: 31%;
-                  }
-                  &:nth-child(7) {
-                    width: 31%;
-                  }
-                  &:nth-child(8) {
-                    width: 65%;
-                  }
+                // margin: 1%;
+                // @include flexbox;
+                // @include flex-wrap(wrap);
+                .masonry-image-block {
+                    @include center(90%, 100%);
                 }
+                // .masonry-image {
+                //   background: $c-theme1 no-repeat center center / cover;
+                //   height: 40vh;
+                //   margin: 1%;
+                //   &:nth-child(1) {
+                //     width: 65%;
+                //   }
+                //   &:nth-child(2) {
+                //     width: 31%;
+                //   }
+                //   &:nth-child(3) {
+                //     width: 31%;
+                //   }
+                //   &:nth-child(4) {
+                //     width: 65%;
+                //   }
+                //   &:nth-child(5) {
+                //     width: 65%;
+                //   }
+                //   &:nth-child(6) {
+                //     width: 31%;
+                //   }
+                //   &:nth-child(7) {
+                //     width: 31%;
+                //   }
+                //   &:nth-child(8) {
+                //     width: 65%;
+                //   }
+                // }
             }
         }
     }

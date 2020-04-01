@@ -1290,51 +1290,13 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 
 #homepage .section2 .wrapper .masonry-gallery {
   margin-bottom: 10%;
-  margin: 1%;
-  display: -webkit-box;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
-#homepage .section2 .wrapper .masonry-gallery .masonry-image {
-  background-color: #353a40;
-  height: 40vh;
-  margin: 1%;
-}
-
-#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(1) {
-  width: 65%;
-}
-
-#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(2) {
-  width: 31%;
-}
-
-#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(3) {
-  width: 31%;
-}
-
-#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(4) {
-  width: 65%;
-}
-
-#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(5) {
-  width: 65%;
-}
-
-#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(6) {
-  width: 31%;
-}
-
-#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(7) {
-  width: 31%;
-}
-
-#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(8) {
-  width: 65%;
+#homepage .section2 .wrapper .masonry-gallery .masonry-image-block {
+  width: 90%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ================================= 
