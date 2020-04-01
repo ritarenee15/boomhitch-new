@@ -836,7 +836,7 @@ a:hover, a:focus {
   padding: .25em .55em;
 }
 
-#homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, #portfolioInteriorPage .section2 .contact-btn, #servicesPage .section2 .contact-btn, button[type="submit"] {
+#homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, #portfolioInteriorPage .section2 .contact-btn, #servicesPage .section2 .contact-btn, button[type="submit"] {
   background-color: #f04c3b;
   font-family: "Marison-Sans", "Arial Black", sans-serif;
   font-size: .75em;
@@ -848,28 +848,16 @@ a:hover, a:focus {
   width: 100%;
 }
 
-#homepage .section2 .wrapper a:hover, #homepage .section1 .wrapper a:hover, #aboutPage .section1 a:hover, #portfolioPage .section2 .services-btn:hover, #portfolioInteriorPage .section2 .contact-btn:hover, #servicesPage .section2 .contact-btn:hover, button:hover[type="submit"], #homepage .section2 .wrapper a:focus, #homepage .section1 .wrapper a:focus, #aboutPage .section1 a:focus, #portfolioPage .section2 .services-btn:focus, #portfolioInteriorPage .section2 .contact-btn:focus, #servicesPage .section2 .contact-btn:focus, button:focus[type="submit"] {
+#homepage .section1 .wrapper a:hover, #aboutPage .section1 a:hover, #portfolioPage .section2 .services-btn:hover, #portfolioInteriorPage .section2 .contact-btn:hover, #servicesPage .section2 .contact-btn:hover, button:hover[type="submit"], #homepage .section1 .wrapper a:focus, #aboutPage .section1 a:focus, #portfolioPage .section2 .services-btn:focus, #portfolioInteriorPage .section2 .contact-btn:focus, #servicesPage .section2 .contact-btn:focus, button:focus[type="submit"] {
   background: #353a40;
   color: #FFFFFF;
 }
 
 @media (min-width: 37.5em) {
-  #homepage .section2 .wrapper a, #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, #portfolioInteriorPage .section2 .contact-btn, #servicesPage .section2 .contact-btn, button[type="submit"] {
+  #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, #portfolioInteriorPage .section2 .contact-btn, #servicesPage .section2 .contact-btn, button[type="submit"] {
     width: 20em;
     margin: auto;
   }
-}
-
-#homepage .section2 .wrapper a {
-  color: #f04c3b;
-  background-color: transparent;
-  border: thin solid transparent;
-}
-
-#homepage .section2 .wrapper a:hover, #homepage .section2 .wrapper a:focus {
-  border: thin solid #f04c3b;
-  background-color: transparent;
-  color: #f04c3b;
 }
 
 .form fieldset {
@@ -1280,7 +1268,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #homepage .section1 {
-  padding: 5% 0 10%;
+  padding: 5% 0;
   margin-top: 55vh;
 }
 
@@ -1297,25 +1285,56 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #homepage .section2 {
+  margin-bottom: 5%;
+}
+
+#homepage .section2 .wrapper .masonry-gallery {
   margin-bottom: 10%;
+  margin: 1%;
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-#homepage .section2 .wrapper {
-  width: 100%;
-  max-width: 75em;
-  margin-left: auto;
-  margin-right: auto;
+#homepage .section2 .wrapper .masonry-gallery .masonry-image {
+  background-color: #353a40;
+  height: 40vh;
+  margin: 1%;
 }
 
-#homepage .section2 .wrapper .mansory-gallery {
-  margin-bottom: 10%;
+#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(1) {
+  width: 65%;
 }
 
-#homepage .section2 .wrapper .mansory-gallery .mansory-image {
-  width: 90%;
-  max-width: 85.9375em;
-  margin-left: auto;
-  margin-right: auto;
+#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(2) {
+  width: 31%;
+}
+
+#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(3) {
+  width: 31%;
+}
+
+#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(4) {
+  width: 65%;
+}
+
+#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(5) {
+  width: 65%;
+}
+
+#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(6) {
+  width: 31%;
+}
+
+#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(7) {
+  width: 31%;
+}
+
+#homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(8) {
+  width: 65%;
 }
 
 /* ================================= 

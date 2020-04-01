@@ -2218,7 +2218,7 @@ footer {
         }
     }
     .section1 {
-        padding: 5% 0 10%;
+        padding: 5% 0;
         margin-top: 55vh;
         .wrapper {
             @include center(90%, $mq-medium);
@@ -2232,17 +2232,45 @@ footer {
         }
     }
     .section2 {
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         .wrapper {
-            @include center(100%, $mq-large);
-            .mansory-gallery {
+            .masonry-gallery {
                 margin-bottom: 10%;
-                .mansory-image {
-                    @include center(90%, $mq-xLarge);
+                margin: 1%;
+                @include flexbox;
+                @include flex-wrap(wrap);
+                // .masonry-image-block {
+                //     @include center(90%, $mq-xLarge);
+                // }
+                .masonry-image {
+                  background-color: $c-theme1;
+                  height: 40vh;
+                  margin: 1%;
+                  &:nth-child(1) {
+                    width: 65%;
+                  }
+                  &:nth-child(2) {
+                    width: 31%;
+                  }
+                  &:nth-child(3) {
+                    width: 31%;
+                  }
+                  &:nth-child(4) {
+                    width: 65%;
+                  }
+                  &:nth-child(5) {
+                    width: 65%;
+                  }
+                  &:nth-child(6) {
+                    width: 31%;
+                  }
+                  &:nth-child(7) {
+                    width: 31%;
+                  }
+                  &:nth-child(8) {
+                    width: 65%;
+                  }
                 }
-            }
-            a {
-                @extend %minor-button;
             }
         }
     }
