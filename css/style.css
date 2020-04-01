@@ -998,6 +998,76 @@ button[type="submit"] {
   transition: all .5s;
 }
 
+.footer-form {
+  margin-bottom: 1.5em;
+}
+
+.footer-form fieldset {
+  border: none;
+}
+
+.footer-form fieldset .form-elements {
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.footer-form fieldset .form-elements .email-container {
+  width: 65%;
+}
+
+.footer-form fieldset .form-elements .email-container input {
+  margin: 0;
+  border: none;
+}
+
+.footer-form fieldset .form-elements .email-container input[type="text"]::-webkit-input-placeholder {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #353a40;
+  text-transform: lowercase;
+}
+
+.footer-form fieldset .form-elements .email-container input[type="text"]:-ms-input-placeholder {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #353a40;
+  text-transform: lowercase;
+}
+
+.footer-form fieldset .form-elements .email-container input[type="text"]::-ms-input-placeholder {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #353a40;
+  text-transform: lowercase;
+}
+
+.footer-form fieldset .form-elements .email-container input[type="text"]::placeholder {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #353a40;
+  text-transform: lowercase;
+}
+
+.footer-form fieldset .form-elements button {
+  width: 35%;
+  background-color: #353a40;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.footer-form fieldset .form-elements button:hover, .footer-form fieldset .form-elements button:focus {
+  background-color: #f04c3b;
+}
+
+.footer-form fieldset .form-elements button[type="submit"] {
+  padding: 1.1em 1em;
+}
+
 /* ================================= 
   Layout - Base Styles
 ==================================== */
@@ -1186,12 +1256,35 @@ footer .footer-bar .wrapper {
   flex-direction: column;
 }
 
-footer .footer-bar .wrapper .footer-bar-items {
+footer .footer-bar .wrapper .links-form .footer-bar-items {
   margin-bottom: 1em;
 }
 
-footer .footer-bar .wrapper .footer-bar-items li {
+footer .footer-bar .wrapper .links-form .footer-bar-items li {
   margin-bottom: .5em;
+}
+
+footer .footer-bar .wrapper .links-form .footer-form {
+  width: 100%;
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 56.25em) {
+  footer .footer-bar .wrapper .links-form {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .footer-bar .wrapper .links-form .footer-bar-items {
+    width: 60%;
+    text-align: left;
+  }
+  footer .footer-bar .wrapper .links-form .footer-form {
+    width: 40%;
+  }
 }
 
 footer .footer-bar .wrapper .footer-bar-icons a {

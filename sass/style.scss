@@ -2012,6 +2012,44 @@ button[type="submit"] {
 	transition: all .5s;
 }
 
+
+.footer-form {
+  margin-bottom: 1.5em;
+  fieldset {
+    border: none;
+    .form-elements {
+      @include flexbox;
+      @include flex-wrap(wrap);
+      .email-container {
+        width: 65%;
+        input {
+          margin: 0;
+          border: none;
+        }
+        input[type="text"]::placeholder {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-style: italic;
+          color: $c-theme1;
+          text-transform: lowercase;
+        }
+      }
+      button {
+        width: 35%;
+        background-color: $c-theme1;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        text-transform: lowercase;
+        &:hover, &:focus {
+          background-color: $c-theme2;
+        }
+      }
+      button[type="submit"] {
+        padding: 1.1em 1em;
+      }
+    }
+  }
+}
+
 // =================================
 //	Image Maps
 // =================================
@@ -2137,25 +2175,40 @@ footer {
 			@include center(90%, $mq-mediumLarge);
 			padding: 2em 0;
 			@include flexbox;
-			@include flex-direction(column);
-			.footer-bar-items {
-				margin-bottom: 1em;
-				li {
-					margin-bottom: .5em;
-				}
-			}
-			.footer-bar-icons a {
-				color: $c-white;
-				&:not(:first-child) {
-					margin-left: 1em;
-				}
-				&:hover,
-				&:focus {
-					opacity: .4;
-				}
-			}
+      @include flex-direction(column);
+      .links-form {
+        .footer-bar-items {
+          margin-bottom: 1em;
+          li {
+            margin-bottom: .5em;
+          }
+        }
+        .footer-form {
+          @include center(100%, $mq-tiny);
+        }
+        @media (min-width: $mq-medium) {
+          @include flexbox;
+          .footer-bar-items {
+            width: 60%;
+            text-align: left;
+          }
+          .footer-form {
+            width: 40%;
+          }
+        }
+      }
+      .footer-bar-icons a {
+        color: $c-white;
+        &:not(:first-child) {
+          margin-left: 1em;
+        }
+        &:hover,
+        &:focus {
+          opacity: .4;
+        }
+      }
 		}
-	}
+  }
 }
 
 /* ================================= 
