@@ -1004,6 +1004,8 @@ button[type="submit"] {
 
 .footer-form fieldset {
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-form fieldset .form-elements {
@@ -1283,7 +1285,8 @@ footer .footer-bar .wrapper .links-form .footer-form {
     text-align: left;
   }
   footer .footer-bar .wrapper .links-form .footer-form {
-    width: 33%;
+    width: 40%;
+    margin-left: 2em;
   }
 }
 

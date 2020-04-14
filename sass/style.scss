@@ -2017,6 +2017,8 @@ button[type="submit"] {
   margin-bottom: 1.5em;
   fieldset {
     border: none;
+    padding: 0;
+    margin: 0;
     .form-elements {
       @include flexbox;
       @include flex-wrap(wrap);
@@ -2194,7 +2196,8 @@ footer {
             text-align: left;
           }
           .footer-form {
-            width: 33%;
+            width: 40%;
+            margin-left: 2em;
           }
         }
       }
