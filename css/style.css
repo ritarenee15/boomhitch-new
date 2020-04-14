@@ -1124,7 +1124,7 @@ nav .mobile-nav-bar .top-nav-bar .wrapper .logo img {
   -webkit-transition: all .5s;
   transition: all .5s;
   width: 100%;
-  max-width: 15em;
+  max-width: 17em;
 }
 
 nav .mobile-nav-bar .top-nav-bar .wrapper .logo img:hover, nav .mobile-nav-bar .top-nav-bar .wrapper .logo img:focus {
@@ -1170,7 +1170,7 @@ nav .desktop-nav-bar {
 
 nav .desktop-nav-bar .wrapper {
   width: 90%;
-  max-width: 64em;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
