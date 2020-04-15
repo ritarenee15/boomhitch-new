@@ -1364,8 +1364,8 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #homepage .section1 {
-  padding: 5% 0;
-  margin-top: 55vh;
+  padding: 5% 0 4% 0;
+  margin-top: 58vh;
 }
 
 #homepage .section1 .wrapper {
@@ -1378,6 +1378,12 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 #homepage .section1 .wrapper h6:last-of-type {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+@media (min-width: 48em) {
+  #homepage .section1 {
+    margin-top: 54vh;
+  }
 }
 
 #homepage .section2 {
