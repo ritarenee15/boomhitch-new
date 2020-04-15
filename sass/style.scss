@@ -2295,7 +2295,7 @@ footer {
         margin-bottom: 5%;
         .wrapper {
             .masonry-gallery {
-                margin-bottom: 10%;
+                margin-bottom: 5%;
                 // margin: 1%;
                 @include center(90%, 100%);
                 @include flexbox;
@@ -2305,7 +2305,7 @@ footer {
                 // }
                 .masonry-image {
                   background: $c-theme1 no-repeat center center / cover;
-                  height: 40vh;
+                  height: 17vh;
                   margin: 1%;
                   &:nth-child(1) {
                     width: 65%;
@@ -2330,6 +2330,12 @@ footer {
                   }
                   &:nth-child(8) {
                     width: 65%;
+                  }
+                  @media (min-width: $mq-mediumSmall) {
+                    height: 30vh;
+                  }
+                  @media (min-width: $mq-mediumLarge) {
+                    height: 50vh;
                   }
                 }
             }

@@ -1391,7 +1391,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #homepage .section2 .wrapper .masonry-gallery {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   width: 90%;
   max-width: 100%;
   margin-left: auto;
@@ -1406,7 +1406,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 
 #homepage .section2 .wrapper .masonry-gallery .masonry-image {
   background: #353a40 no-repeat center center/cover;
-  height: 40vh;
+  height: 17vh;
   margin: 1%;
 }
 
@@ -1440,6 +1440,18 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 
 #homepage .section2 .wrapper .masonry-gallery .masonry-image:nth-child(8) {
   width: 65%;
+}
+
+@media (min-width: 48em) {
+  #homepage .section2 .wrapper .masonry-gallery .masonry-image {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 64em) {
+  #homepage .section2 .wrapper .masonry-gallery .masonry-image {
+    height: 50vh;
+  }
 }
 
 /* ================================= 
