@@ -1246,7 +1246,7 @@ footer .footer-bar .wrapper {
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2em 0;
+  padding: 5% 0 4%;
   display: -webkit-box;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -1286,7 +1286,7 @@ footer .footer-bar .wrapper .links-form .footer-form {
   }
   footer .footer-bar .wrapper .links-form .footer-form {
     width: 40%;
-    margin-left: 2em;
+    margin-left: 16em;
   }
 }
 
