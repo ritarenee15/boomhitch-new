@@ -632,14 +632,14 @@ template {
   font-family: "Avenir";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/AvenirLTPro-Medium.eot?") format("eot"), url("../fonts/AvenirLTPro-Medium.ttf") format("truetype"), url("../fonts/AvenirLTPro-Medium.woff") format("woff");
+  src: url("../fonts/AvenirLTPro-Medium.ttf.eot?") format("eot"), url("../fonts/AvenirLTPro-Medium.ttf.ttf") format("truetype"), url("../fonts/AvenirLTPro-Medium.ttf.woff") format("woff");
 }
 
 @font-face {
   font-family: "Marison-Sans";
   font-style: normal;
   font-weight: normal;
-  src: url("../Marison-Sans.eot?") format("eot"), url("../Marison-Sans.ttf") format("truetype"), url("../Marison-Sans.woff") format("woff");
+  src: url("../fonts/Marison-Sans.otf.eot?") format("eot"), url("../fonts/Marison-Sans.otf.ttf") format("truetype"), url("../fonts/Marison-Sans.otf.woff") format("woff");
 }
 
 * {
