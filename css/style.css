@@ -1310,7 +1310,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #homepage nav .mobile-nav-bar #bottom-nav-bar {
-  background-color: #353a40;
+  background-color: #3e4248;
   padding: 0 0 1em;
 }
 
@@ -1355,12 +1355,30 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   background: #353a40 url("../images/heroes/home_hero.jpg") no-repeat top center/cover;
   position: absolute;
   width: 100%;
+  overflow: hidden;
   z-index: -1;
 }
 
 #homepage .hero h1 {
   color: #FFFFFF;
   margin-top: 5%;
+  z-index: 1;
+}
+
+#homepage .video-wrapper video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+  /* Setting width & height to auto prevents
+				the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 #homepage .section1 {
