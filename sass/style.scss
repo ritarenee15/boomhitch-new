@@ -2408,7 +2408,6 @@ footer {
             // Loop using Lists from $images variable (Looping turned off for now - images were placed in-line on portfolio.html)
             @each $div, $portfolioImage in $portfolioImages {
                 .#{$div} {
-                    // background: $c-theme1 url($portfolioImage) no-repeat top center / cover;
                     background: $c-theme1 no-repeat top center / cover;
                     height: 300px;
                     width: 100%;
@@ -2417,10 +2416,6 @@ footer {
                     margin: 0 1rem 1rem 0;
                     display: inline-block;
                     position: relative;
-                    // &:hover, &:focus {
-                    //     opacity: .5;
-                    //     transition: all .4s;
-                    // }
                     .overlay {
                         position: absolute;
                         width: 100%;
@@ -2430,35 +2425,15 @@ footer {
                         background:rgba(darken($c-theme2, 20%), 0.9);
                         opacity: 0;
                         transition: all .5s;
-                        // &::before {
-                        //   content: 'Work Title';
-                        //   color: $c-white;
-                        //   font-family: $f-bodyFont;
-                        //   text-transform: uppercase;
-                        //   position: absolute;
-                        //   font-size: .6em;
-                        //   width: 100%;
-                        //   bottom: 130px;
-                        //   left: 0;
-                        //   opacity: 0;
-                        //   transition: all .5s;
-                        // }
                         .work-title {
                           color: $c-white;
                           font-family: $f-bodyFont;
                           text-transform: uppercase;
                           font-size: 1.5em;
                           margin-top: 45%;
-                          // position: absolute;
-                          // top: 35%;
-                          // left: 40%;
                         }
                         &:hover {
                         opacity: 1;
-                          // &::before {
-                          //   opacity: 1;
-                          //   font-size: 1.2em;
-                          // }
                         }
                       }
 
@@ -2538,6 +2513,148 @@ footer {
             @extend %major-button;
         }
     }
+}
+
+// ---------------------------------
+      // LIGHTBOX MODAL
+// ---------------------------------
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: $c-theme1;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  // background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  left: -5px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+// img {
+//   margin-bottom: -4px;
+// }
+
+.mySlides img {
+  width: 50%;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: $c-theme1;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ================================= 
