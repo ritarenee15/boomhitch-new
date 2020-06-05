@@ -632,14 +632,14 @@ template {
   font-family: "Avenir";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/AvenirLTPro-Medium.woff") format("woff");
+  src: url("../fonts/AvenirLTPro-Medium.woff.eot?") format("eot"), url("../fonts/AvenirLTPro-Medium.woff.ttf") format("truetype"), url("../fonts/AvenirLTPro-Medium.woff.woff") format("woff");
 }
 
 @font-face {
   font-family: "Marison-Sans";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/marison-sans-webfont.woff") format("woff");
+  src: url("../fonts/marison-sans-webfont.woff.eot?") format("eot"), url("../fonts/marison-sans-webfont.woff.ttf") format("truetype"), url("../fonts/marison-sans-webfont.woff.woff") format("woff");
 }
 
 * {
@@ -1070,7 +1070,7 @@ button[type="submit"] {
   padding: 1.1em 1em;
 }
 
-/* =================================
+/* ================================= 
   Layout - Base Styles
 ==================================== */
 html body {
@@ -1302,7 +1302,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   opacity: .4;
 }
 
-/* =================================
+/* ================================= 
   Homepage
 ==================================== */
 #homepage nav .mobile-nav-bar .top-nav-bar .wrapper #menu::after {
@@ -1473,7 +1473,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   }
 }
 
-/* =================================
+/* ================================= 
   About Page
 ==================================== */
 #aboutPage .hero {
@@ -1528,7 +1528,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   margin-bottom: 10%;
 }
 
-/* =================================
+/* ================================= 
   Portfolio Page
 ==================================== */
 #portfolioPage .page-tag {
@@ -2186,7 +2186,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   opacity: 1;
 }
 
-/* =================================
+/* ================================= 
   Portfolio Interior Page
 ==================================== */
 #portfolioInteriorPage .page-tag {
@@ -2440,7 +2440,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   }
 }
 
-/* =================================
+/* ================================= 
   Services Page
 ==================================== */
 #servicesPage .page-tag {
@@ -2529,7 +2529,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   line-height: 1.2em;
 }
 
-/* =================================
+/* ================================= 
   Contact Page
 ==================================== */
 #contactPage .hero {

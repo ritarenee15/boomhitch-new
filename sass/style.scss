@@ -1679,9 +1679,9 @@ $c-theme3-lighten: lighten($c-theme3, 15%);
 
 * {-webkit-font-smoothing: antialiased; -moz-font-smoothing: grayscale;}
 
-@include font-face("Avenir", "../fonts/AvenirLTPro-Medium.ttf", normal, normal, eot ttf woff);
+@include font-face("Avenir", "../fonts/AvenirLTPro-Medium.woff", normal, normal, eot ttf woff);
 
-@include font-face("Marison-Sans", "../fonts/Marison-Sans.otf", normal, normal, eot ttf woff);
+@include font-face("Marison-Sans", "../fonts/marison-sans-webfont.woff", normal, normal, eot ttf woff);
 
 * {
   box-sizing: border-box;
