@@ -632,14 +632,14 @@ template {
   font-family: "Avenir";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/AvenirLTPro-Medium.woff") format("woff");
+  src: url("../fonts/AvenirLTPro-Medium.woff.eot?") format("eot"), url("../fonts/AvenirLTPro-Medium.woff.ttf") format("truetype"), url("../fonts/AvenirLTPro-Medium.woff.woff") format("woff");
 }
 
 @font-face {
   font-family: "Marison-Sans";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/marison-sans-webfont.woff") format("woff");
+  src: url("../fonts/marison-sans-webfont.woff.eot?") format("eot"), url("../fonts/marison-sans-webfont.woff.ttf") format("truetype"), url("../fonts/marison-sans-webfont.woff.woff") format("woff");
 }
 
 * {
@@ -1070,7 +1070,7 @@ button[type="submit"] {
   padding: 1.1em 1em;
 }
 
-/* =================================
+/* ================================= 
   Layout - Base Styles
 ==================================== */
 html body {
@@ -1302,7 +1302,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   opacity: .4;
 }
 
-/* =================================
+/* ================================= 
   Homepage
 ==================================== */
 #homepage nav .mobile-nav-bar .top-nav-bar .wrapper #menu::after {
@@ -1473,7 +1473,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   }
 }
 
-/* =================================
+/* ================================= 
   About Page
 ==================================== */
 #aboutPage .hero {
@@ -1528,7 +1528,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   margin-bottom: 10%;
 }
 
-/* =================================
+/* ================================= 
   Portfolio Page
 ==================================== */
 #portfolioPage .page-tag {
@@ -2186,7 +2186,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   opacity: 1;
 }
 
-/* =================================
+/* ================================= 
   Portfolio Interior Page
 ==================================== */
 #portfolioInteriorPage .page-tag {
@@ -2229,13 +2229,6 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10%;
-  /* The Modal (background) */
-  /* Modal Content */
-  /* The Close Button */
-  /* Next & previous buttons */
-  /* Position the "next button" to the right */
-  /* On hover, add a black background color with a little bit see-through */
-  /* Number text (1/3 etc) */
 }
 
 #portfolioInteriorPage .section1 .portfolio-interior-images {
@@ -2243,149 +2236,8 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #portfolioInteriorPage .section1 .portfolio-interior-images div {
-  background: #f9f4f0 no-repeat top center/cover;
-  height: 300px;
-  width: 100%;
-  max-width: 300px;
-  color: #353a40;
-  margin: 0 1rem 1rem 0;
-  display: inline-block;
-}
-
-#portfolioInteriorPage .section1 .row > .column {
-  padding: 0 8px;
-}
-
-#portfolioInteriorPage .section1 .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#portfolioInteriorPage .section1 .column {
-  float: left;
-  width: 25%;
-}
-
-#portfolioInteriorPage .section1 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: #353a40;
-}
-
-#portfolioInteriorPage .section1 .modal-content {
-  position: relative;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
-
-#portfolioInteriorPage .section1 .close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-#portfolioInteriorPage .section1 .close:hover,
-#portfolioInteriorPage .section1 .close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#portfolioInteriorPage .section1 .mySlides {
-  display: none;
-}
-
-#portfolioInteriorPage .section1 .cursor {
-  cursor: pointer;
-}
-
-#portfolioInteriorPage .section1 img {
-  background: #f9f4f0;
-}
-
-#portfolioInteriorPage .section1 .prev,
-#portfolioInteriorPage .section1 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-}
-
-#portfolioInteriorPage .section1 .prev {
-  left: -5px;
-}
-
-#portfolioInteriorPage .section1 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-#portfolioInteriorPage .section1 .prev:hover,
-#portfolioInteriorPage .section1 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-#portfolioInteriorPage .section1 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-#portfolioInteriorPage .section1 .mySlides img {
-  width: 50%;
-}
-
-#portfolioInteriorPage .section1 .caption-container {
-  text-align: center;
-  background-color: #353a40;
-  padding: 2px 16px;
-  color: white;
-}
-
-#portfolioInteriorPage .section1 .demo {
-  opacity: 0.6;
-}
-
-#portfolioInteriorPage .section1 .active,
-#portfolioInteriorPage .section1 .demo:hover {
-  opacity: 1;
-}
-
-#portfolioInteriorPage .section1 img.hover-shadow {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#portfolioInteriorPage .section1 .hover-shadow:hover {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: transparent no-repeat top center / cover;
+  display: inline;
 }
 
 #portfolioInteriorPage .section2 {
@@ -2440,7 +2292,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   }
 }
 
-/* =================================
+/* ================================= 
   Services Page
 ==================================== */
 #servicesPage .page-tag {
@@ -2529,7 +2381,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   line-height: 1.2em;
 }
 
-/* =================================
+/* ================================= 
   Contact Page
 ==================================== */
 #contactPage .hero {
@@ -2582,6 +2434,274 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   #contactPage .section1 form button {
     width: 15em;
     margin: auto;
+  }
+}
+
+#portfolioInteriorPage .gallery {
+  max-width: calc((150px*2) + 1em);
+  padding: 3em 0;
+  color: #333;
+}
+
+@media (min-width: 56.25em) {
+  #portfolioInteriorPage .gallery {
+    max-width: calc((150px*4) + 3em);
+  }
+}
+
+#portfolioInteriorPage .gallery__title {
+  font-size: 2em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #666;
+}
+
+#portfolioInteriorPage .gallery__intro {
+  margin: 0 0 2em;
+}
+
+#portfolioInteriorPage .gallery__intro p {
+  line-height: 1.5em;
+}
+
+#portfolioInteriorPage .gallery ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#portfolioInteriorPage .gallery li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#portfolioInteriorPage .gallery li:hover {
+  -webkit-transform: scale(1.0221);
+          transform: scale(1.0221);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#portfolioInteriorPage .gallery img {
+  display: block;
+  border-radius: 3px;
+  height: 300px;
+}
+
+#portfolioInteriorPage .m-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  pointer-events: none;
+}
+
+#portfolioInteriorPage .m-lightbox.is-active {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  z-index: 101;
+  pointer-events: auto;
+}
+
+#portfolioInteriorPage .m-lightbox__slider {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#portfolioInteriorPage .m-lightbox__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#portfolioInteriorPage .m-lightbox__slide img {
+  display: block;
+  max-width: calc(100vw - 2em);
+  max-height: 90vh;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+@media (min-width: 56.25em) {
+  #portfolioInteriorPage .m-lightbox__slide img {
+    max-width: calc(100vw - 116px);
+    max-height: 90vh;
+  }
+}
+
+#portfolioInteriorPage .m-lightbox__slide.is-loaded.is-active img {
+  opacity: 1;
+}
+
+#portfolioInteriorPage .m-lightbox__slide.is-loaded.is-active .spinner {
+  display: none;
+}
+
+#portfolioInteriorPage .m-lightbox button {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: 102;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#portfolioInteriorPage .m-lightbox__close {
+  top: 1em;
+  right: 1em;
+}
+
+#portfolioInteriorPage .m-lightbox__nextPrev {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+#portfolioInteriorPage .m-lightbox__nextPrev.is-active {
+  visibility: hidden;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+@media (min-width: 64em) {
+  #portfolioInteriorPage .m-lightbox__nextPrev.is-active {
+    visibility: visible;
+  }
+}
+
+#portfolioInteriorPage .m-lightbox__nextPrev svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#portfolioInteriorPage .m-lightbox__nextPrev--next {
+  right: 1em;
+}
+
+#portfolioInteriorPage .m-lightbox__nextPrev--prev {
+  left: 1em;
+}
+
+#portfolioInteriorPage .m-lightbox__nextPrev:hover {
+  cursor: pointer;
+}
+
+#portfolioInteriorPage .m-lightbox__counter {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #333;
+  font-weight: 700;
+}
+
+#portfolioInteriorPage .spinner {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+#portfolioInteriorPage .spinner::before, #portfolioInteriorPage .spinner::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+          animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+#portfolioInteriorPage .spinner::after {
+  -webkit-animation-delay: -1.0s;
+          animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 /*# sourceMappingURL=style.css.map */
