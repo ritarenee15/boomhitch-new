@@ -632,14 +632,14 @@ template {
   font-family: "Avenir";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/AvenirLTPro-Medium.woff.eot?") format("eot"), url("../fonts/AvenirLTPro-Medium.woff.ttf") format("truetype"), url("../fonts/AvenirLTPro-Medium.woff.woff") format("woff");
+  src: url("../fonts/AvenirLTPro-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "Marison-Sans";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/marison-sans-webfont.woff.eot?") format("eot"), url("../fonts/marison-sans-webfont.woff.ttf") format("truetype"), url("../fonts/marison-sans-webfont.woff.woff") format("woff");
+  src: url("../fonts/marison-sans-webfont.woff") format("woff");
 }
 
 * {
@@ -829,11 +829,11 @@ a:hover, a:focus {
 }
 
 .footer-bar-icons .fb {
-  padding: .25em .7em;
+  padding: .5em .7em;
 }
 
 .footer-bar-icons .ig {
-  padding: .25em .55em;
+  padding: .5em .55em;
 }
 
 #homepage .section1 .wrapper a, #aboutPage .section1 a, #portfolioPage .section2 .services-btn, #portfolioInteriorPage .section2 .contact-btn, #servicesPage .section2 .contact-btn, button[type="submit"] {

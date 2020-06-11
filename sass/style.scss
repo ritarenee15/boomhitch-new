@@ -1679,9 +1679,23 @@ $c-theme3-lighten: lighten($c-theme3, 15%);
 
 * {-webkit-font-smoothing: antialiased; -moz-font-smoothing: grayscale;}
 
-@include font-face("Avenir", "../fonts/AvenirLTPro-Medium.woff", normal, normal, eot ttf woff);
+// @include font-face("Avenir", "../fonts/AvenirLTPro-Medium.woff", normal, normal, woff);
 
-@include font-face("Marison-Sans", "../fonts/marison-sans-webfont.woff", normal, normal, eot ttf woff);
+// @include font-face("Marison-Sans", "../fonts/marison-sans-webfont.woff", normal, normal, woff);
+
+@font-face {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/AvenirLTPro-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Marison-Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/marison-sans-webfont.woff") format("woff");
+}
 
 * {
   box-sizing: border-box;
@@ -1815,10 +1829,10 @@ a {
         }
       }
       .fb {
-        padding: .25em .7em;
+        padding: .5em .7em;
       }
       .ig {
-        padding: .25em .55em;
+        padding: .5em .55em;
       }
   }
   
