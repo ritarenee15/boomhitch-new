@@ -1,55 +1,25 @@
 // Menu Collapse
 function menuCollapse() {
-    var x = document.getElementById("bottom-nav-bar");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+    var body = document.body;
+    var bottomNav = document.getElementById("bottom-nav-bar");
+    var topNav = document.getElementById("top-nav-bar");
+    var navLogo = document.getElementById("nav-logo");
+    var navIcon = document.getElementById("menu");
+    if (bottomNav.style.display === "block") {
+      bottomNav.style.display = "none";
+      topNav.style.backgroundColor = "transparent";
+      body.style.overflow = "visible";
+      navIcon.classList.remove('darken-menu-icon');
+      navLogo.src = "images/logo_white.png"
     } else {
-      x.style.display = "block";
+      bottomNav.style.display = "block";
+      topNav.style.backgroundColor = "white";
+      topNav.style.opacity = ".95";
+      navIcon.classList.add('darken-menu-icon');
+      body.style.overflow = "hidden";
+      navLogo.src = "images/logo_dark.png"
     }
   }
-
-
-
-
-// Interior Portfolio Page Modal
-  // function openModal() {
-  //   getInfo();
-  //   document.getElementById("myModal").style.display = "block";
-  // }
-  
-  // function closeModal() {
-  //   document.getElementById("myModal").style.display = "none";
-  // }
-  
-  // var slideIndex = 1;
-  // showSlides(slideIndex);
-  
-  // function plusSlides(n) {
-  //   showSlides(slideIndex += n);
-  // }
-  
-  // function currentSlide(n) {
-  //   showSlides(slideIndex = n);
-  // }
-  
-  // function showSlides(n) {
-  //   var i;
-  //   var slides = document.getElementsByClassName("mySlides");
-  //   var dots = document.getElementsByClassName("demo");
-  //   var captionText = document.getElementById("caption");
-  //   if (n > slides.length) {slideIndex = 1}
-  //   if (n < 1) {slideIndex = slides.length}
-  //   for (i = 0; i < slides.length; i++) {
-  //       slides[i].style.display = "none";
-  //   }
-  //   for (i = 0; i < dots.length; i++) {
-  //       dots[i].className = dots[i].className.replace(" active", "");
-  //   }
-  //   slides[slideIndex-1].style.display = "block";
-  //   dots[slideIndex-1].className += " active";
-  //   captionText.innerHTML = dots[slideIndex-1].alt;
-  // }
-
 
   // ------ Lightbox
   class Lightbox {

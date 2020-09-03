@@ -2135,14 +2135,26 @@ nav {
 		}
 		#bottom-nav-bar {
 			display: none;
-            padding: 2em 0 1em;
-            background-color: $c-white;
-            position: absolute;
-            width: 100%;
-            opacity: 0.95;
-			.nav-bar-items li {
-				margin-bottom: 1em;
-			}
+      padding: 2em 0 1em;
+      background-color: $c-white;
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      z-index: 2;
+      opacity: 0.95;
+      overflow-x: none;
+      .nav-bar-items {
+        height: calc(100vh - 265px);
+        width: 90%;
+        margin: auto;
+        margin-top: 2em;
+        @include flexbox;
+        @include flex-direction(column);
+        @include justify-content(space-between);
+        li:not(:last-child) {
+          margin-bottom: 1em;
+        }
+      }
 		}
 		@media (min-width: $mq-mediumSmall) {
 			display: none;
@@ -2243,16 +2255,20 @@ footer {
                             color: $c-white;
                         }
                     }
+                    .darken-menu-icon {
+                      &::after {
+                          color: $c-theme1!important;
+                      }
+                  }
                 }
             }
             #bottom-nav-bar {
                 // Custom color to match video hero
-                background-color: #3e4248;
+                background-color: $c-white;
                 padding: 0 0 1em;
                 .nav-bar-items li {
                     color: $c-white;
                     a {
-                        color: $c-white;
                         &:hover, &:focus {
                             color: $c-theme2;
                         }
@@ -2281,7 +2297,7 @@ footer {
         @include align-items(center);
         @include justify-content(center);
         height: 600px;
-        background: $c-theme1 url("../images/heroes/home_hero.jpg") no-repeat top center / cover;
+        background: $c-theme1 url("../images/heroes/home_hero.jpg") no-repeat bottom center / cover;
         position: absolute;
         width: 100%;
         overflow: hidden;
@@ -2290,24 +2306,21 @@ footer {
             color: $c-white;
             margin-top: 5%;
             z-index: 1;
+            span:first-child {
+              display: block;
+            }
+        }
+        @media (min-width: $mq-mediumSmall) {
+          h1 {
+            @include flexbox;
+            @include justify-content(space-between);
+            @include center(90%, 15em);
+            span:first-child {
+              margin-left: 10%;
+            }
+          }
         }
     }
-    .video-wrapper {
-			video {
-				/* Make video to at least 100% wide and tall */
-				min-width: 100%; 
-				min-height: 100%; 
-				/* Setting width & height to auto prevents
-				the browser from stretching or squishing the video */
-				width: auto;
-				height: auto;
-				/* Center the video */
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%,-50%);
-			}
-		}
     .section1 {
         padding: 10% 0 8% 0;
         margin-top: 486px;

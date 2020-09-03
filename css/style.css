@@ -1152,10 +1152,33 @@ nav .mobile-nav-bar #bottom-nav-bar {
   background-color: #FFFFFF;
   position: absolute;
   width: 100%;
+  height: 100vh;
+  z-index: 2;
   opacity: 0.95;
+  overflow-x: none;
 }
 
-nav .mobile-nav-bar #bottom-nav-bar .nav-bar-items li {
+nav .mobile-nav-bar #bottom-nav-bar .nav-bar-items {
+  height: calc(100vh - 265px);
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+}
+
+nav .mobile-nav-bar #bottom-nav-bar .nav-bar-items li:not(:last-child) {
   margin-bottom: 1em;
 }
 
@@ -1309,16 +1332,16 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   color: #FFFFFF;
 }
 
+#homepage nav .mobile-nav-bar .top-nav-bar .wrapper .darken-menu-icon::after {
+  color: #353a40 !important;
+}
+
 #homepage nav .mobile-nav-bar #bottom-nav-bar {
-  background-color: #3e4248;
+  background-color: #FFFFFF;
   padding: 0 0 1em;
 }
 
 #homepage nav .mobile-nav-bar #bottom-nav-bar .nav-bar-items li {
-  color: #FFFFFF;
-}
-
-#homepage nav .mobile-nav-bar #bottom-nav-bar .nav-bar-items li a {
   color: #FFFFFF;
 }
 
@@ -1352,7 +1375,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   -moz-justify-content: center;
   justify-content: center;
   height: 600px;
-  background: #353a40 url("../images/heroes/home_hero.jpg") no-repeat top center/cover;
+  background: #353a40 url("../images/heroes/home_hero.jpg") no-repeat bottom center/cover;
   position: absolute;
   width: 100%;
   overflow: hidden;
@@ -1365,20 +1388,28 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   z-index: 1;
 }
 
-#homepage .video-wrapper video {
-  /* Make video to at least 100% wide and tall */
-  min-width: 100%;
-  min-height: 100%;
-  /* Setting width & height to auto prevents
-				the browser from stretching or squishing the video */
-  width: auto;
-  height: auto;
-  /* Center the video */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+#homepage .hero h1 span:first-child {
+  display: block;
+}
+
+@media (min-width: 48em) {
+  #homepage .hero h1 {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #homepage .hero h1 span:first-child {
+    margin-left: 10%;
+  }
 }
 
 #homepage .section1 {
